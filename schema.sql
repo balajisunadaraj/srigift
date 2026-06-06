@@ -82,7 +82,8 @@ CREATE TABLE IF NOT EXISTS offers (
     message TEXT NOT NULL,
     "offerDate" TEXT NOT NULL,
     category TEXT,
-    discount INTEGER DEFAULT 0
+    discount INTEGER DEFAULT 0,
+    image TEXT
 );
 
 CREATE TABLE IF NOT EXISTS wishlist (
